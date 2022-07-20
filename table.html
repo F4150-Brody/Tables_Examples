@@ -5,10 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table Exercise</title>
+    <style>
+        td{
+            text-align: center;
+        }
+    </style>
+
 </head>
 <body>
 
     <table border="2" width="70%">
+        <caption STYLE="caption-side:bottom"> TABLE EXAMPLE </caption>
 
      <thead>
         <tr>
@@ -24,6 +31,34 @@
      </thead>
 
      <tbody>
+        <tr>
+            <td>Tuesday</td>
+            <td>07:00 a.m</td>
+            <td>11:00 a.m</td>
+            <td rowspan="2">
+                Computer Fundamental
+                <ul>
+                    <li>Hardware</li>
+                    <li>OS</li>
+                    <li>Storage</li>
+                    <li>Data</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="3">Thursday</td>
+            <td>07:00 a.m</td>
+            <td>07:50 a.m</td>
+        </tr>
+        <tr>
+            <td>07:00 a.m</td>
+            <td>07:50 a.m</td>
+            <td rowspan="2">HTML <br>CSS</td>
+        </tr>
+        <tr>
+            <td>07:00 a.m</td>
+            <td>07:50 a.m</td>
+        </tr>
 
 
      </tbody>
